@@ -27,9 +27,12 @@
 
     /* font variables */
     --font-family: "Open Sans", serif;
+    --font-family-baloo: "Baloo 2", serif;
     --text-md: 400 1rem var(--font-family);
     --text-sm: 400 0.875rem var(--font-family); 
     --text-sm: 400 0.75rem var(--font-family);
+    --headind-md: 700 1.75rem var(--font-family-baloo);
+    --headind-sm: 700 1.125rem var(--font-family-baloo);
     color: var(--text-color-body);
 }
 

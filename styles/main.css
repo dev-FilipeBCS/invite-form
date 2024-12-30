@@ -1,0 +1,30 @@
+.main-container {
+    & > h1 {
+        color: var(--text-color-heading);
+        font: var(--headind-md);
+        text-align: start;
+        margin-bottom: 40px;
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    legend {
+        padding-bottom: 24px;
+
+        display: flex;
+        color: var(--text-color-heading);
+        font: var(--headind-sm);
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+       
+        img {
+            padding-right: 12px;
+            height: 24px;
+        }
+    }
+
+}
