@@ -6,12 +6,6 @@
 
 
 :root {
-    /* font variables */
-    --font-family: "Open Sans", serif;
-    --text-md: 400 1rem var(--font-family);
-    --text-sm: 400 0.875rem var(--font-family); 
-    --text-sm: 400 0.75rem var(--font-family);
-
     /* colors variables */
     --brand-light: #59B2FF;
     --brand-mid: #3487CF;
@@ -30,4 +24,18 @@
 
     --text-color-body: #C8CDD0;
     --text-color-heading: #F9F9F9;
+
+    /* font variables */
+    --font-family: "Open Sans", serif;
+    --text-md: 400 1rem var(--font-family);
+    --text-sm: 400 0.875rem var(--font-family); 
+    --text-sm: 400 0.75rem var(--font-family);
+    color: var(--text-color-body);
+}
+
+.cursive {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #FF598B;
 }

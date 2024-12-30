@@ -1,0 +1,31 @@
+#app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: var(--shape-background);
+    padding: 20px;
+}
+
+aside {
+    min-width: 400px;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 12px;
+    padding: 32px 32px;
+
+    font: var(--text-md);
+
+    img {
+        height: 3rem;
+        margin-bottom: 16px;
+    }
+
+    div{
+        padding-bottom: 4px;
+    }
+}
+
