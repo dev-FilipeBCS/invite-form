@@ -25,7 +25,10 @@ input[type="radio"] {
 }
 
 #theme-picker {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: .5rem;
     align-items: center;
     text-align: center;
 
