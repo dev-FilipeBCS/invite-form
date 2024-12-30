@@ -1,4 +1,8 @@
+@import url(forms/index.css);
+
 .main-container {
+    font: var(--text-sm);
+
     & > h1 {
         color: var(--text-color-heading);
         font: var(--headind-md);
@@ -8,6 +12,7 @@
 
     fieldset {
         border: none;
+        padding-bottom: 3rem;
     }
 
     legend {
@@ -24,6 +29,16 @@
         img {
             padding-right: 12px;
             height: 24px;
+        }
+    }
+    
+    .input-wrapper {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        label {
+            padding: 14px;
         }
     }
 

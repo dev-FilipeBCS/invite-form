@@ -1,0 +1,52 @@
+input[type="radio"] {
+    display: none;
+}
+
+#color-picker{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+    .radio-inner {
+        background-image: url(../../assets/color-default.svg);
+        background-repeat: no-repeat;
+    
+        &:hover, &:focus-within{
+            background-image: url(../../assets/color-hover.svg);
+            background-repeat: no-repeat;
+        }
+    
+        &:has(:checked){
+            background-image: url(../../assets/color-selected.svg);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+#theme-picker {
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+    .radio-inner {
+        background-color: var(--shape-button);
+        border: 2px solid #ffffff00;
+        border-radius: 12px;
+        justify-content: center;
+    
+        img {
+            padding: 4px;
+            border-radius: 12px;
+        }
+
+        &:hover, &:focus-within{
+            background-color: var(--shape-hover);
+            border: 2px solid #ffffff00;
+        }
+
+        &:has(:checked){
+            border: 2px solid var(--brand-light);
+        }
+    }
+}

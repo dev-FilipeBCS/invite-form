@@ -34,4 +34,6 @@ main {
     border-radius: 12px;
     padding: 80px 130px;
     margin-left: 10px;
+
+    overflow: auto;
 }
