@@ -44,5 +44,9 @@
 }
 
 .flex {
-    display: flex;   
+    display: flex;
+
+    & > .input-wrapper{
+        margin-right: 1rem;
+    }
 }

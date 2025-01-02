@@ -37,3 +37,8 @@ main {
 
     overflow: auto;
 }
+
+#bar {
+    border: 1px solid var(--shape-button);
+    margin-bottom: 2.78125rem;
+}

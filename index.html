@@ -336,6 +336,59 @@
                             </div>
                         </div>
                     </fieldset>
+
+                    <fieldset id="contact-info">
+                        <legend><img src="assets/contact.svg" alt="ícone de contato">Dados para contato</legend>
+
+                        <div class="input-wrapper">
+                            <label>Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper">
+                                <label>E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label>Telefone</label>
+                                <input type="tel" name="phone" id="phone" placeholder="(99) 99999-9999">
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div id="bar"></div>
+
+                    <fieldset id="footer">
+                        <div id="term-wrapper" class="terms-wrapper flex">
+                            <div class="terms-background"></div>
+                            <img src="assets/check.svg" alt="ícone de check">
+                            <input type="checkbox" name="terms" id="terms" required>
+                            <div>Li e concordo com os <a href="">Termos e Condições</a> e com a <a href="">Política de Privacidade</a></div>
+                        </div>
+
+                        <div id="submail-wrapper" class="terms-wrapper flex">
+                            <div class="terms-background"></div>
+                            <img src="assets/check.svg" alt="ícone de check">
+                            <input type="checkbox" name="submail" id="submail">
+                            <div>Aceito receber atualizações e promoções por e-mail</div>
+                        </div>
+
+                        <div id="subupdate-wrapper" class="terms-wrapper flex">
+                            <div class="terms-background"></div>
+                            <img src="assets/check.svg" alt="ícone de check">
+                            <input type="checkbox" name="subupdate" id="subupdate">
+                            <div>Aceito receber atualizações e promoções por SMS</div>
+                        </div>
+
+                        <div class="button-wrapper">
+                            <button>
+                                <img src="assets/ticket.svg" alt="Ícone de bilhete">
+                                Gerar convite
+                            </button>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </main>

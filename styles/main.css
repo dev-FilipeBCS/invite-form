@@ -10,11 +10,11 @@
 
     fieldset {
         border: none;
-        padding-bottom: 3rem;
+        margin-bottom: 3rem;
     }
 
     legend {
-        padding-bottom: 24px;
+        margin-bottom: 1.5rem;
 
         display: flex;
         color: var(--text-color-heading);
@@ -25,27 +25,24 @@
         width: 100%;
        
         img {
-            padding-right: 12px;
+            margin-right: 12px;
             height: 24px;
         }
     }
     
     .input-wrapper {
-        padding: 1rem;
         display: flex;
         flex-direction: column;
 
         label {
-            padding: 14px;
+            margin: 14px;
         }
     }
 
 }
 
-#about {
-    input, 
-    textarea, 
-    select {
+#about, #contact-info {
+    input {
         background-color: var(--input-base);
         width: 100%;
         border-radius: .5rem;
@@ -55,5 +52,7 @@
         padding: .75rem 1rem;
 
         font: var(--text-sm);
+
+        color: var(--text-sm);
     }
 }
