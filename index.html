@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -219,7 +219,7 @@
                             <div id="theme-picker">
                                 <div class="radio-inner">
                                     <label for="birthday">
-                                        <img src="assets/birthday.jpg" alt="Cartão de aniversário">
+                                        <img src="assets/cards/birthday.jpg" alt="Cartão de aniversário">
                                         <p>Aniversário</p>
                                     </label>
                                     <input type="radio" name="event" id="birthday">
@@ -227,7 +227,7 @@
 
                                 <div class="radio-inner">
                                     <label for="child">
-                                        <img src="assets/child.jpg" alt="Cartão infantil">
+                                        <img src="assets/cards/child.jpg" alt="Cartão infantil">
                                         <p>Infantil</p>
                                     </label>
                                     <input type="radio" name="event" id="child">
@@ -235,7 +235,7 @@
 
                                 <div class="radio-inner">
                                     <label for="graduation">
-                                        <img src="assets/graduation.jpg" alt="Cartão de graduação">
+                                        <img src="assets/cards/graduation.jpg" alt="Cartão de graduação">
                                         <p>Formatura</p>
                                     </label>
                                     <input type="radio" name="event" id="graduation">
@@ -243,7 +243,7 @@
 
                                 <div class="radio-inner">
                                     <label for="marriage">
-                                        <img src="assets/marriage.jpg" alt="Cartão de casamento">
+                                        <img src="assets/cards/marriage.jpg" alt="Cartão de casamento">
                                         <p>Casamento</p>
                                     </label>
                                     <input type="radio" name="event" id="marriage">
@@ -251,7 +251,7 @@
 
                                 <div class="radio-inner">
                                     <label for="baby-shower">
-                                        <img src="assets/baby-shower.jpg" alt="Cartão de chá de bebê">
+                                        <img src="assets/cards/baby-shower.jpg" alt="Cartão de chá de bebê">
                                         <p>Chá de bebê</p>
                                     </label>
                                     <input type="radio" name="event" id="baby-shower">
@@ -259,7 +259,7 @@
 
                                 <div class="radio-inner">
                                     <label for="bridal-shower">
-                                        <img src="assets/bridal-shower.jpg" alt="Cartão de chá de panela">
+                                        <img src="assets/cards/bridal-shower.jpg" alt="Cartão de chá de panela">
                                         <p>Chá de panela</p>
                                     </label>
                                     <input type="radio" name="event" id="bridal-shower">
@@ -267,7 +267,7 @@
 
                                 <div class="radio-inner">
                                     <label for="carnival">
-                                        <img src="assets/carnival.jpg" alt="Cartão de carnaval">
+                                        <img src="assets/cards/carnival.jpg" alt="Cartão de carnaval">
                                         <p>Carnaval</p>
                                     </label>
                                     <input type="radio" name="event" id="carnival">
@@ -275,7 +275,7 @@
 
                                 <div class="radio-inner">
                                     <label for="easter">
-                                        <img src="assets/easter.jpg" alt="Cartão de páscoa">
+                                        <img src="assets/cards/easter.jpg" alt="Cartão de páscoa">
                                         <p>Páscoa</p>
                                     </label>
                                     <input type="radio" name="event" id="easter">
@@ -283,7 +283,7 @@
                                 
                                 <div class="radio-inner">
                                     <label for="saint-john">
-                                        <img src="assets/saint-john.jpg" alt="Cartão de São João">
+                                        <img src="assets/cards/saint-john.jpg" alt="Cartão de São João">
                                         <p>São João</p>
                                     </label>
                                     <input type="radio" name="event" id="saint-john">
@@ -291,7 +291,7 @@
 
                                 <div class="radio-inner">
                                     <label for="halloween">
-                                        <img src="assets/halloween.jpg" alt="Cartão de halloween">
+                                        <img src="assets/cards/halloween.jpg" alt="Cartão de halloween">
                                         <p>Halloween</p>
                                     </label>
                                     <input type="radio" name="event" id="halloween">
@@ -299,7 +299,7 @@
 
                                 <div class="radio-inner">
                                     <label for="christmas">
-                                        <img src="assets/christmas.jpg" alt="Cartão de natal">
+                                        <img src="assets/cards/christmas.jpg" alt="Cartão de natal">
                                         <p>Natal</p>
                                     </label>
                                     <input type="radio" name="event" id="christmas">
@@ -307,17 +307,35 @@
 
                                 <div class="radio-inner">
                                     <label for="other">
-                                        <img src="assets/other.jpg" alt="Cartão de amigos brindando">
+                                        <img src="assets/cards/other.jpg" alt="Cartão de amigos brindando">
                                         <p>Outro</p>
                                     </label>
                                     <input type="radio" name="event" id="other">
                                 </div>       
+                            </div>
+                        </div>
 
+                        <div id="checkbox-drop" class="flex">
+                            <div class="checkbox-wrapper">
+                                <label>Estilo</label>
+                                <div class="checkbox-inner">
+                                    <input type="checkbox" id="brigth" name="bright">
+                                    <label for="bright">
+                                        <p id="dark">Escuro</p>
+                                        <p id="light">Claro</p>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="drop-wrapper">
+                                <label>Foto de Capa</label>
+                                <div class="dropzone">
+                                    <input type="file" name="cover" id="cover">
+                                    <img src="assets/dropzone.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </fieldset>
-
-
                 </form>
             </div>
         </main>
