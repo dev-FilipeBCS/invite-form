@@ -103,19 +103,21 @@ input[type="radio"] {
 #checkbox-drop {
     position: relative;
     padding-top: 8.625rem;
+    gap: 1rem;
 }
 
 .checkbox-inner {
     display: flex;
     flex-direction: row;
+    gap: .5rem;
 
     align-items: center;
-    padding: .5rem 0;
-    gap: .75rem;
-    
+    padding-top: .5rem;
+
+    width: 12rem;
+
     #light{
         display: none;
-       
     }
 
     &:has(:checked){
@@ -140,23 +142,61 @@ input[type="radio"] {
     background-repeat: no-repeat;
 }
 
-.drop-wrapper{
-    position: absolute;
-    left: 14.25rem;
+/* Drop zone */
+#wallpap {
+    display: flex;
 }
 
-.dropzone {
-    margin: .5rem 0;
-    justify-content: start;
+#fotocap {
+    color: var(--text-body);
+    font: 400 var(--body-sm);
+}
+
+
+.docfile {
+    padding-top: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
     position: relative;
 
-    input {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        inset: 0;
-        opacity: 0;
-    }
+    .docinpt {
+        cursor: pointer;
+        z-index: 1;
+        background-color: var(--shape-button);
+        height: 2.5rem;
+
+        display: flex;
+        align-items: center;
+        padding: .75rem;
+        gap: .5rem;
+        border-radius: .5rem;
+        font: 400 var(--body-sm);
+        color: var(--text-head);
+
+&:hover {
+    background-color: var(--shape-hover);
+
+& svg path {
+    stroke: var(--brand-light);
+}
+
+}
+
+}
+
+
+& input {
+    all: unset;
+&::file-selector-button {
+    display: none;
+}
+    font: 400 var(--body-md);
+    color: var(--input-placeholder);
+}
+
+
+
 }
 
 .error {
