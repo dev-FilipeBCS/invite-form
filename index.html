@@ -336,9 +336,13 @@
                     <fieldset id="contact-info">
                         <legend><img src="assets/contact.svg" alt="ícone de contato">Dados para contato</legend>
 
-                        <div class="input-wrapper">
+                        <div class="input-wrapper required">
                             <label>Nome</label>
                             <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                            <div class="error flex">
+                                <img src="assets/circle-alert.svg" alt="Ícone de alerta vermelho">
+                                <span>Campo obrigatório</span>
+                            </div>
                         </div>
 
                         <div class="flex">

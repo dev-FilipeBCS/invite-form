@@ -159,6 +159,40 @@ input[type="radio"] {
     }
 }
 
+.error {
+    padding-top: .25rem;
+    gap: .5rem;
+    align-items: center;
+    text-justify: center;
+    img{
+        height: 1rem;
+    }
+    span{
+        font: var(--text-sm);
+        color: var(--danger);
+        fill: var(--danger);    
+    }
+}
+
+.required {
+    #name {
+        outline: 1px solid var(--danger);
+    }
+
+    & > input:not(:placeholder-shown) + .error {
+        display: none;
+    }
+    & > #name:not(:placeholder-shown) {
+        outline: 1px solid var(--input-stroke);
+    }
+    & > input:focus + .error {
+        display: none;
+    }
+    & > #name:focus {
+        outline: 1px solid var(--input-stroke);
+    }
+}
+
 #footer {
     margin: .25rem;
     .button-wrapper {
