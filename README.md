@@ -15,7 +15,6 @@ Este projeto é um desafio do curso Fullstack da Rocketseat. Ele explora a cria�
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -42,11 +41,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 O formulário de convite permite a escolha dos detalhes de customização para um convite.
 
 - [Acesse o projeto finalizado online](https://dev-filipebcs.github.io/invite-form/)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESTE LINK](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Formul-rio-de-convite-554c54a22b184222ac988d1fa90cb597). É necessário ter uma conta no [Figma](https://figma.com) para acessá-lo.
-
+  
 ## :memo: Licença
 
 Este projeto está sob a licença MIT.
